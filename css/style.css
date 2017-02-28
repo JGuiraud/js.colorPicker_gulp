@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  height:100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+}
+
+.topLeft {
+  height: 40vh;
+  width: 50vw;
+  flex-basis: 50%;
+}
+
+.topRight {
+ height: 40vh;
+ width: 50vw;
+ flex-basis: 50%;
+}
+
+.bottom {
+  height: 60vh;
+  width: 100vw;
+}

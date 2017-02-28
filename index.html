@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--<div class="container">-->
+    <div class="topLeft">
+
+        <div class="colors">
+            <label for="">Change the Red, Green and Blue values to create a new background color</label><br>
+            <input id="R1" min="0" max="255" type="range" name="" value="255">
+            <input id="G1" min="0" max="255" type="range" name="" value="255">
+            <input id="B1" min="0" max="255" type="range" name="" value="255">
+        </div>
+        <div class="colors">
+            <span>Red :
+            <span id="r1">255</span>
+            </span>
+            <span>| Green :
+            <span id="g1">255</span>
+            </span>
+            <span>| Blue :
+            <span id="b1">255</span>
+            </span>
+        </div>
+
+    </div>
+    <div class="topRight">
+        <div class="colors">
+            <label for="">Change the Red, Green and Blue values to create a new background color</label><br>
+            <input id="R2" min="0" max="255" type="range" name="" value="255">
+            <input id="G2" min="0" max="255" type="range" name="" value="255">
+            <input id="B2" min="0" max="255" type="range" name="" value="255">
+        </div>
+        <div class="colors">
+            <span>Red :
+            <span id="r2">255</span>
+            </span>
+            <span>| Green :
+            <span id="g2">255</span>
+            </span>
+            <span>| Blue :
+            <span id="b2">255</span>
+            </span>
+        </div>
+    </div>
+    <!--</div>-->
+
+    <div class="bottom">
+        <button class="Left">Gradient to Left</button>
+        <button class="Right">Gradient to Right</button>
+        <button class="Radial">Radial Gradient</button>
+        <button class="reverse">Reverse Radial Gradient</button>
+
+    </div>
+
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="js/app.js"></script>
+
+</html>
